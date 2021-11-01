@@ -1,0 +1,73 @@
+.paligation {
+   &__inner-item {
+    margin-left: 8px;
+    font-family: $font-open;
+  }
+   &__inner-item--active &__inner-link {
+    color: $color-green;
+  }
+   &__spans {
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+  }
+    &__link {
+      font-size: 12px;
+      line-height: 16px;
+      color: $color-text;
+      @include links;
+       &:hover {
+        color: $color-green;
+    }
+  }
+  .paligation__btn {
+    display: inline-block;
+    padding: 12px 38px 12px 16px;
+    @include links;
+    background-color: $color-green;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: transparent;
+      color: $color-green;
+      border-color: $color-green;
+    }
+  }
+  .paligation__number {
+    display: inline-block;
+    padding: 0 8px;
+    background-color:  #F4F8EC;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-green;
+    border-radius: 12px;
+  }
+  .paligation__text {
+    font-family: $font-open;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+  }
+}
+@media screen and (max-width: 768px) {
+    .paligation__list {
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .paligation__inner-list {
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    .paligation__btns {
+      margin-bottom: 15px;
+    }
+}

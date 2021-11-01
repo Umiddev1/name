@@ -1,0 +1,134 @@
+.blog {
+  padding-bottom: 120px;
+  .blog__group {
+    position: relative;
+  }
+  .blog__title {
+    width: 380px;
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+  }
+  .blog__spans {
+    position: absolute;
+    color: $color-green;
+    top: 24px;
+    left: 24px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    background: #F4F8EC;;
+    border-radius: 12px;
+    padding: 0 8px;
+  }
+  .blog__span {
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;  
+    left: 0;
+    color: #fff;
+    bottom: 42px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .blog__span::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url("../../img/quote-img/customer-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 8px;
+  }
+  .time {
+    margin-left: 16px;
+  }
+  .blog__img {
+    margin-bottom: 24px;
+  }
+  .blog__item-span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    padding: 0 8px;
+    background: #F4F8EC;
+    color: $color-green;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  .blog__item-title {
+    width: 267px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-text;
+    margin-bottom: 16px;
+  }
+  .blog__item-spans {
+    font-family: $font-open;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .blog__items {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .blog__items::after {
+    content: "";
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    background-image: url("../../img/blog-imgs/blog-three.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    background-position: center center;
+    margin-left: 48px;
+  }
+  .blog__items:nth-child(2)::after {
+    background-image: url("../../img/blog-imgs/blog-four.png");
+  }
+  .blog__items:nth-child(3)::after {
+    background-image: url("../../img/blog-imgs/blog-fife.png");
+  }
+  .blog__titless {
+    width: 225px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog__contents {
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .blog__group {
+    margin-bottom: 32px;
+  }
+  .blog__item {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .blog__items {
+      flex-direction: column;
+    }
+    .blog__items::after {
+      margin:0;
+      padding: 0;
+      margin: 0 auto;
+    }
+}

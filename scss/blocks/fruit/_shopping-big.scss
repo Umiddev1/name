@@ -1,0 +1,135 @@
+.shopping__big-list {
+  margin-bottom: 80px;
+  .shopping__big-item {
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    margin-bottom: 32px;
+  }
+  .shopping__big-img {
+    height: 289px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .shopping__inner {
+    height: 289px;
+  }
+  .shopping__big-des {
+    margin-top: 32px;
+  }
+  .shopping__big-money {
+    margin-top: 32px;
+  }
+  .shopping__big-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-text;
+    margin-bottom: 8px;
+  }
+  .shopping__big-text {
+    font-family: $font-open;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+    margin-bottom: 8px;
+  }
+  .shopping__big-icon {
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+  .big-inner__list {
+    margin-left: 20px;
+  }
+  .big-inner__item {
+    margin-bottom: 12px;
+  }
+  .big-inner__link {
+    font-family: $font-open;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a9a9a9;
+    @include links;
+    transition: color 0.2s ease;
+    &:hover {
+      color: $color-green;
+    }
+  }
+  .shopping__big-monney {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-text;
+  }
+  .shopping__big-sale {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a9a9a9;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .shopping__big-free {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A9A9A9;
+    margin-bottom: 26px;
+  }
+  .shopping__big-freee {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A9A9A9;
+
+  }
+  .shopping__big-btn {
+    padding: 12px 38px 12px 16px;
+    border: 2px solid transparent;
+    background-color: $color-green;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 12px;
+    &:hover {
+      background-color: transparent;
+      color: $color-green;
+      border-color: $color-green;
+    }
+  }
+  .shopping__big-btns {
+    padding: 7px 12px 7px 36px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 12px;
+    line-height: 22px;
+    position: relative;
+    cursor: pointer;
+  }
+ .right {
+   font-size: 20px;
+   position: absolute;
+   right: 15px;
+ }
+ .heart {
+   position: absolute;
+   left: 12px;
+   font-size: 20px;
+ }
+}
+.remove__list-big {
+  display: none;
+}
+.remove__list-bigg {
+  display: block !important;
+}
+@media screen and (max-width:768px) {
+    .shopping__big-list {
+      display: none;
+    }
+}

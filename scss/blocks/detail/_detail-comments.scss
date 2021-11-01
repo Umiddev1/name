@@ -1,0 +1,87 @@
+.comments__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: $color-text;
+  margin-bottom: 16px;
+}
+.comments__group {
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.comments__text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text;
+  position: relative;
+  margin-left: 68px;
+  margin-top: 19px;
+}
+.comments__text::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../../../img/quote-img/customer-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: -58px;
+  top: -6px;
+}
+.comments__link {
+  @include links;
+  font-weight: 600;
+  font-size: 12px;  
+  line-height: 18px;
+  display: inline-block;
+  padding: 0 8px;
+  background: #F4F8EC;
+  color: $color-green;
+  border-radius: 12px;
+  margin-left: 8px;
+  margin-top: 19px;
+}
+.comments__time {
+  font-family: $font-open;
+  font-size: 12px;
+  line-height: 16px;
+  color: #D1D1D1;
+  margin-left: 68px;
+  display: inline-block;
+  margin-bottom: 27px;
+}
+.comments__subtext {
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.comments__inner {
+  justify-content: end;
+  margin-right: 1px;
+}
+.comments__groups {
+  max-width: 468px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+}
+.comments__subtexts {
+  max-width: 436px;
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+.comments__gray {
+  color: $color-text;
+}

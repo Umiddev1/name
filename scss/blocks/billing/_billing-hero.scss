@@ -1,0 +1,19 @@
+.billing-hero {
+  margin-bottom: 32px;
+}
+.billing__hero-span {
+  font-family: $font-open;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a9a9a9;
+  margin-right: 12px;
+}
+.billing__links {
+  font-size: 12px;
+  line-height: 16px;
+  color: $color-text;
+  @include links;
+  &:hover {
+    color: $color-green;
+  }
+}

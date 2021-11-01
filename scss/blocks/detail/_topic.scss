@@ -1,0 +1,30 @@
+.topics {
+  padding-bottom: 102px;
+  .topic__item-span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    padding: 0 8px;
+    background: #F4F8EC;
+    color: $color-green;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  .topic__img {
+    margin-bottom: 24px;
+  }
+  .topic__item-title {
+    width: 267px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-text;
+    margin-bottom: 16px;
+  }
+  .topic__item-spans {
+    font-family: $font-open;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

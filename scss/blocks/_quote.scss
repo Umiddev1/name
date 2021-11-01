@@ -1,0 +1,74 @@
+.quote {
+  padding: 64px 0;
+  margin-bottom: 100px;
+    .quote__body {
+      position: relative;
+      z-index: 0;
+    }
+    .arrow-left {
+      position: absolute;
+      left: 0;
+      top: 104px;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .arrow-right {
+      position: absolute;
+      top: 104px;
+      transform: rotate(180deg);
+      right: 0;
+      cursor: pointer;
+    }
+    .quote__list {
+      margin-top: 64px;
+      position: relative;
+    }
+    .quote__inner {
+      max-width: 369px;
+      background: #fff;
+      border: 1px solid #f1f1f1;
+      border-radius: 12px;
+      position: relative;
+    }
+    .quote__texts {
+      // max-width: 305px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: $color-text;
+      text-align: center;
+      margin: 0 auto;
+      padding: 24px 32px;
+    }
+    .quote__subtexts {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      color: #a9a9a9;
+      display: block;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    .quote__imgs {
+      position: absolute;
+      left: 135px;
+      bottom: -24px;
+    }
+}
+@media screen and (max-width: 972px) {
+    .quote__item {
+      margin-bottom: 24px;
+    }  
+}
+@media screen and (max-width: 768px) {
+    .quote__list {
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .quote__item {
+      margin-bottom: 32px;
+    }
+    .quote__imgs {
+      left: 100px;
+    }
+}

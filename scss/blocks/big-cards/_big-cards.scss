@@ -1,0 +1,127 @@
+.big-cards__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-text;
+  margin-bottom: 8px;
+}
+.big-cards__form {
+  width: 269px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+}
+.big-cards__inp {
+  border: none;
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color:$color-text;
+  background-color: transparent;
+  margin: 12px 0;
+  margin-left: 12px;
+  outline: none;
+}
+.big-cards__btn {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: bold;
+  color: $color-text;
+  @include links;
+}
+.big-cards__text {
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  margin-bottom: 24px;
+}
+.blog__group {
+  position: relative;
+  margin-bottom: 96px;
+}
+.blog__title {
+  width: 380px;
+  position: absolute;
+  left: 30px;
+  bottom: 80px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #fff;
+}
+.blog__imgs {
+  width: 569px;
+  height: 400px;
+}
+.blog__spans {
+  position: absolute;
+  color: $color-green;
+  top: 24px;
+  left: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  background: #F4F8EC;;
+  border-radius: 12px;
+  padding: 0 8px;
+}
+.blog__span {
+  position: absolute;
+  font-size: 12px;
+  line-height: 16px;  
+  left: 0;
+  color: #fff;
+  bottom: 42px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+.blog__span::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url("../../img/quote-img/customer-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 8px;
+}
+.time {
+  margin-left: 16px;
+}
+.blog__img {
+  margin-bottom: 24px;
+}
+.blog__item-span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  padding: 0 8px;
+  background: #F4F8EC;
+  color: $color-green;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.blog__item-title {
+  width: 267px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-text;
+  margin-bottom: 16px;
+}
+.blog__item-spans {
+  font-family: $font-open;
+  font-size: 12px;
+  line-height: 16px;
+}
+.blog__item {
+  margin-bottom: 32px;
+}
+.paligation {
+  margin-top: 64px;
+  margin-bottom: 81px;
+}

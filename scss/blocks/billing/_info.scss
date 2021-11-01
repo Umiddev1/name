@@ -1,0 +1,233 @@
+.info__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+.info__list {
+  display: flex;
+  margin-bottom: 32px;
+}
+.info__item {
+  font-family: $font-open;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a9a9a9;
+}
+.info__group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.infp__rows {
+  display: flex;
+}
+.info__lb {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text;
+}
+.info__inp {
+  width: 319px;
+  font-family: $font-open;
+  padding: 11px 16px 12px 21px;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  &:hover {
+    border-color: $color-green;
+  }
+}
+.info__checks {
+  max-width: 243px;
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+}
+.info__checks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.info__checks-inp {
+  width: 20px;
+  height: 20px;
+  margin-left: 18px;
+  margin-right: 10px;
+}
+.info__checks-text {
+  font-family: $font-open;
+  display: inline-block;
+  padding: 12px 0;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+}
+.method__groups {
+  margin-bottom: 64px;
+}
+.method__group {
+  display: flex;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 15px 16px;
+  margin-bottom: 16px;
+}
+.big__sales {
+  margin-bottom: 64px;
+}
+.method__radio {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.method__lb {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text;
+  margin-left: 16px;
+}
+.method__num {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-green;
+}
+.method__text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text;
+  margin-left: 4px;
+}
+.mehtod__sales {
+  max-width: 670px;
+  height: 48px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.method__sale {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.sale__radio {
+  padding: 15px 0;
+  margin-left: 16px;
+}
+.sale__lb {
+  padding: 15px 0px;
+}
+.method__areas {
+  display: flex;
+  flex-direction: column;
+}
+.methdo__area {
+  max-width: 670px;
+  height: 112px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  resize: none;
+  padding-top: 11px;
+  padding-left: 21px;
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a9a9a9;
+  margin-bottom: 64px;
+}
+.area__lb {
+  padding: 0;
+  margin: 0;
+}
+.rowss {
+  display: flex;
+  background: #F9F9F9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 12px 16px 12px;
+  margin-bottom: 16px;
+}
+.rowsss {
+  max-width: 433px;
+  height: 42px;
+  display: flex;
+  background: #F9F9F9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding-left: 16px;
+  margin-bottom: 32px;
+}
+.conf__check {
+  width: 20px;
+  height: 20px;
+}
+.conf__text {
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+  margin-left: 12px;
+}
+.conf__link {
+  color: $color-text;
+}
+.conf__btn {
+  display: inline-block;
+  padding: 17px 48px;
+  margin-bottom: 32px;
+  background-color: $color-green;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  @include links;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  &:hover {
+    background-color: transparent;
+    color:$color-green;
+    border-color: $color-green;
+  }
+}
+.security__img {
+  margin-bottom: 9px;
+}
+.security__title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text;
+  margin-bottom: 2px;
+}
+.security__text {
+  max-width: 213px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a9a9a9;
+  margin-bottom: 80px;
+}
+.security__texts {
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-text;
+  margin-bottom: 64px;
+}
+@media screen and (max-width: 768px) {
+    .infp__rows {
+      flex-direction: column;
+    }
+}

@@ -1,0 +1,128 @@
+.productss {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  position: relative;
+  bottom: 50px;
+  display: none;
+  &__inner {
+    max-width: 269px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 32px;
+  }
+  &__imgs {
+    border-radius: 12px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 18px;
+  }
+  &__discount {
+    position: absolute; 
+    display: inline-block;
+    padding: 2px 2px; 
+    left: 30px;
+    top: 28px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    background-color: $color-green;
+    border-radius: 12px;
+  }
+  &__titles {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 16px;
+    color: $color-text;
+    margin-bottom: 4px;
+  }
+  &__text {
+    font-family: $font-open;
+    font-size: 12px;
+    margin-left: 16px;
+    line-height: 16px;
+    color: #575757;
+
+  }
+  &__lists {
+    margin-left: 2px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+  }
+  &__items {
+    position: relative;
+  }
+  &__items:nth-child(2) {
+    margin-left: 65px;
+  }
+  &__subtext {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
+  &__btns {
+    padding: 6px 12px;
+    display: inline-block;
+    @include links;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    background-color: $color-green;
+    border-radius: 12px;
+    position: relative;
+    bottom: 5px;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: transparent;
+      color: $color-green;
+      border-color: $color-green;
+    }
+  }
+  &__span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A9A9A9;
+  }
+  .productss__big-icon {
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+@media screen and (max-width: 768px) {
+  .productss {
+    overflow-x: hidden;
+  }
+  .productss__card {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .productss__inner {
+    margin-bottom: 24px;
+  }
+}
+
+
+}
+.remove__add {
+  display: block;
+}
+.remove__none {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+    .productss {
+      display: block;
+    }
+}

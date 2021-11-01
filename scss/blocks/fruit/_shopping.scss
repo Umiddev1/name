@@ -1,0 +1,196 @@
+.shopping {
+  padding: 64px 0;
+  .shopping__item {
+    margin-bottom: 48px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-text;
+    margin-bottom: 16px;  
+  }
+  &__inner-item {
+    padding-left: 15px;
+    margin-bottom: 12px;
+  }
+  &__inner-text {
+    font-family: $font-open;
+    font-size: 14px;
+    @include links;
+    line-height: 19px;
+    color: $color-text;
+    &:hover {
+      color: $color-green;
+    }
+  }
+  &__inner-span {
+    font-family: $font-popins;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 130px;
+    padding: 0 8px;
+    background: #F4F8EC;
+    border-radius: 12px;
+    color: $color-green;
+  }
+  .branding {
+    &__item {
+      margin-bottom: 15px;
+    }
+    &__checkbox {
+      display: none;
+    }
+    &__lb {
+      font-family: $font-open;
+      font-size: 14px;
+      line-height: 19px;
+      color: $color-text;
+      padding-left: 32px;
+      position: relative;
+    }
+    &__lb::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 20px;
+      height: 20px;
+      border: 2px solid #d1d1d1;
+      border-radius: 5px;
+    }
+    &__lb::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translate(0, -50%);
+     width: 20px;
+     height: 20px;
+     background: $color-green;
+     background-image: url("../../../img/shopping-img/Vector.png");
+     background-repeat: no-repeat;
+     background-size: 14px 10px;
+     background-position: center center;
+     border-radius: 5px;   
+     opacity: 0.8;
+    }
+    &__lb:active::after {
+        display: none;
+    }
+  }
+  .rating {
+    .rating__item {
+      margin-bottom: 16px;
+    }
+    .rating__inp {
+      display: none;
+    }
+    .rating__lb {
+      position: relative;
+      padding-left: 28px;
+    }
+    .rating__lb::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 20px;
+      height: 20px;
+      border: 2px solid #d1d1d1;
+      border-radius: 5px;
+    }
+    .bx-star {
+      color: #FDBC15;;
+    }
+  }
+  .cost__line {
+    display: inline-block;
+    width: 100%;
+    height: 6px;
+    background: #ebebeb;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .cost__small-line {
+    content: "";
+    position: absolute;
+    left: 30%;
+    -webkit-transform: translate(-30%, 0);
+    transform: translate(-30%, 0);
+    width: 35%;
+    height: 6px;
+    background: #6a983c;
+    border-radius: 12px;
+  }
+  .cost__small-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px
+    solid #d1d1d1;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 50%;
+  }
+  .cost__small-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+    border-radius: 50%;
+  }
+  .cost__inp-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .cost__lb {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-text;
+  }
+  .cost__inp {
+    padding: 12px 17px;
+    max-width: 110px;
+    background: #f9f9f9;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    margin-bottom: 31px;
+  }
+  .const__btns {
+    padding: 12px 16px;
+    background-color: $color-green;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    &:hover {
+      background: transparent;
+      border-color: $color-green;
+      color: $color-green;
+    }
+  }
+  .const__btn {
+    padding: 12px 6px;
+    border: none;
+    background: none;
+    margin-left: 120px;
+  }
+}
